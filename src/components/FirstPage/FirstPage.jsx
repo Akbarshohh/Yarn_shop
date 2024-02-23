@@ -3,10 +3,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Home', href: '/login' },
+    { name: 'About', href: '/login' },
+    { name: 'Contact', href: '/login' },
 ]
 
 export default function Example() {
@@ -135,7 +134,7 @@ export default function Example() {
                             >
                                 Get started
                             </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                            <a href="https://tailwindui.com/" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">
                                 Learn more <span aria-hidden="true">→</span>
                             </a>
                         </div>
